@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">QiZhugoshshopping</string>
+    <string name="shouye">首页</string>
+    <string name="fenlei">分类</string>
+    <string name="gouwuche">购物车</string>
+    <string name="wode">我的</string>
+    <string name="qiandao">每日签到</string>
+    <string name="jifen">积分商城</string>
+    <string name="duihuan">兑换专区</string>
+    <string name="zhenwei">真伪查询</string>
+    <string name="action_settings">Settings</string>
+</resources>

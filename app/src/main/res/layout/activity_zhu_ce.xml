@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_zhu_ce"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.qizhu.qizhugoshshopping.ZhuCe">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EB6232"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="后退"
+            android:layout_margin="10dp"
+            android:layout_centerVertical="true"
+            android:textColor="#FFFF"
+            android:id="@+id/Register_back"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="新用户注册"
+            android:layout_centerHorizontal="true"
+            android:textSize="20dp"
+            android:textColor="#FFFF"
+
+            android:layout_centerVertical="true"
+            />
+    </RelativeLayout>
+    <EditText
+        android:id="@+id/Register_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入用户名"
+        android:layout_marginTop="20dp"
+        />
+    <EditText
+        android:id="@+id/Register_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入密码"
+        android:layout_marginTop="20dp"
+
+        />
+    <EditText
+        android:id="@+id/Register_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="确认输入密码"
+        android:layout_marginTop="20dp"
+
+        />
+    <EditText
+        android:id="@+id/Register_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请填写邮箱"
+        android:layout_marginTop="20dp"
+
+        />
+    <Button
+        android:id="@+id/Register_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape"
+        android:text="注册"
+        android:layout_marginTop="20dp"
+        />
+</LinearLayout>

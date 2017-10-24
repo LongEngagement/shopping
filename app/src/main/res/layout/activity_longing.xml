@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_longing"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.qizhu.qizhugoshshopping.Longing">
+        <ImageView
+            android:id="@+id/Login_img"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/taobao"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/shape"
+            />
+
+    <TextView
+            android:id="@+id/zhuce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="新用户注册"
+            android:layout_below="@+id/LL"
+            android:layout_alignParentRight="true"
+            />
+    <Button
+        android:id="@+id/Login_btn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="登录"
+        android:gravity="center"
+        android:layout_below="@+id/zhuce"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/shape"
+        />
+    <LinearLayout
+        android:id="@+id/LL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        >
+        <EditText
+            android:id="@+id/mobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="手机号/会员/邮箱"
+            />
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入密码"
+            android:password="true"
+            />
+    </LinearLayout>
+
+
+</RelativeLayout>

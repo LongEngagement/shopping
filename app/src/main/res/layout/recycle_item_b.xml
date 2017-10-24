@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+   <!-- <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <RadioButton
+            android:id="@+id/img_1"
+            style="@style/RadioGroup"
+            android:text="@string/qiandao"
+
+            />
+        <RadioButton
+            android:id="@+id/img_2"
+            style="@style/RadioGroup"
+            android:text="@string/jifen"
+
+            />
+        <RadioButton
+            android:id="@+id/img_3"
+
+            style="@style/RadioGroup"
+            android:text="@string/duihuan"
+
+
+            />
+
+        <RadioButton
+            android:id="@+id/img_4"
+            style="@style/RadioGroup"
+            android:text="@string/zhenwei"
+
+            />
+    </RadioGroup>-->
+    <LinearLayout
+        android:layout_width="450dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/img_1"
+            android:src="@mipmap/ic_launcher"
+
+            />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/img_2"
+            android:src="@mipmap/ic_launcher"
+            />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/img_3"
+            android:src="@mipmap/ic_launcher"
+            />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/img_4"
+            android:src="@mipmap/ic_launcher"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_1"
+            android:text="ss"
+            android:gravity="center"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_2"
+            android:text="ss"
+            android:gravity="center"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_3"
+            android:text="ss"
+            android:gravity="center"
+            />
+        <TextView
+            android:layout_width="0dp"
+          android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_4"
+            android:text="ss"
+            android:gravity="center"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="热门活动"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="倒计时"
+            android:textSize="23sp"/>
+        <cn.iwgang.countdownview.CountdownView
+            android:id="@+id/countdownView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:isHideTimeBackground="false"
+            app:timeBgColor="#f5f5f5"
+            app:isShowDay="true"
+            app:isShowHour="true"
+            app:isShowMinute="true"
+            app:isShowSecond="true"
+            app:timeTextColor="#000"
+            app:timeTextSize="14sp"
+            app:suffixGravity="center"
+            app:suffixTextColor="#7B3A94"
+            app:suffixTextSize="12sp"
+            app:suffixDay="天"
+            app:suffixHour="时"
+            app:suffixMinute="分"
+            app:suffixSecond="秒"
+            android:layout_centerInParent="true"/>
+
+    </LinearLayout>
+</LinearLayout>
